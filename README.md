@@ -1,2 +1,0 @@
-# Featuredlite
-Wordpress free theme
