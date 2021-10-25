@@ -4,7 +4,7 @@ Tags: right-sidebar, custom-menu, translation-ready
 Requires at least: 4.5
 Tested up to: 5.7.2
 Requires PHP: 5.6
-Stable tag: 1.3.8
+Stable tag: 1.3.9
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -27,6 +27,10 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name Featured Lite =
+
+= 1.3.9
+* Th option panel updated.
+
 = 1.3.8 
 * Theme Support link changed.
 
@@ -160,8 +164,8 @@ Version: 1.0.0 =
 
 == Upgrade Notice ==
 
-= 1.3.8 
-* Theme Support link changed.
+= 1.3.9
+* Th option panel updated.
 
 == Resources ==
 
