@@ -75,74 +75,75 @@ $args = array(
   'default-color' => 'ffffff',
 );
 add_theme_support( 'custom-background', $args );
-// Recommend plugins
 
+// Recommend plugins
         add_theme_support( 'recommend-plugins', array(
 
-            'wp-popup-builder' => array(
-                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'featuredlite' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
-            ),
-             'themehunk-megamenu-plus' => array(
-                'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'featuredlite' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
-            ),
-
-            'lead-form-builder' => array(
-                'name' => esc_html__( 'Lead Form Builder', 'featuredlite' ),
-                'img' => 'icon-128x128.png',
-                'active_filename' => 'lead-form-builder/lead-form-builder.php',
-            ),
-
-            'th-advance-product-search' => array(
-                'name' => esc_html__( 'TH Advance Product & Post Search', 'featuredlite' ),
-                'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
-            ),
-
-            'th-variation-swatches' => array(
-                'name' => esc_html__( 'TH Variation swatches', 'featuredlite' ),
-                'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
-            ),  
             'themehunk-customizer' => array(
-                'name' => esc_html__( 'ThemeHunk Customizer', 'featuredlite' ),
-                'img' => 'icon-128x128.png',
+                'name' => esc_html__( 'Themehunk Customizer (Highly Recommended)', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
 
+            'th-advance-product-search' => array(
+            'name' => esc_html__( 'TH Advance Product Search', 'oneline-lite' ),
+            'img' => 'icon-128x128.gif',
+            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'oneline-lite' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ),
+            'lead-form-builder' => array(
+                'name' => esc_html__( 'Lead Form Builder', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'lead-form-builder/lead-form-builder.php',
+            ),
+            'wp-popup-builder' => array(
+                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ), 
             'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'featuredlite' ),
-                'img' => 'icon-128x128.png',
+                'name' => esc_html__( 'Woocommerce', 'oneline-lite' ),
+                 'img' => 'icon-128x128.png',
                 'active_filename' => 'woocommerce/woocommerce.php',
             ),
 
             
+
         ) );
 
         // Import Data Content plugins
         add_theme_support( 'import-demo-content', array(
 
-            'themehunk-customizer' => array(
-                'name' => esc_html__( 'ThemeHunk Customizer', 'featuredlite' ),
+             'themehunk-customizer' => array(
+                'name' => esc_html__( 'Themehunk Customizer (Highly Recommended)', 'oneline-lite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
 
             'one-click-demo-import' => array(
-                'name' => esc_html__( 'One Click Demo Import', 'featuredlite' ),
+                'name' => esc_html__( 'One Click Demo Import', 'oneline-lite' ),
                 'img' => 'icon-128x128.png',
                 'active_filename' => 'one-click-demo-import/one-click-demo-import.php',
             ), 
             'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'featuredlite' ),
+                'name' => esc_html__( 'Woocommerce', 'oneline-lite' ),
                 'img' => 'icon-128x128.png',
                 'active_filename' => 'woocommerce/woocommerce.php',
             ),
 
         ));
+
+        // Useful plugins
+        add_theme_support( 'useful-plugins', array(
+             'themehunk-megamenu-plus' => array(
+                'name' => esc_html__( 'Megamenu plugin from Themehunk.', 'oneline-lite' ),
+                'active_filename' => 'themehunk-megamenu-plus/themehunk-megamenu.php',
+            ),
+        ) );
 
 }
 add_action( 'after_setup_theme', 'featuredlite_setup' );
