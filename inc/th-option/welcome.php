@@ -2,7 +2,8 @@
 <!--- tab first -->
 <div class="theme_link">
     <h3><?php _e('1. Install Recommended Plugins','featuredlite'); ?></h3>
-    <p><?php _e('We highly Recommend to install plugin to get all customization options in Featuredlite theme. Also install recommended plugins available in recommended tab.','featuredlite'); ?></p>
+    <p><?php _e('We highly Recommend to install ThemeHunk Customizer plugin to get all customization options in Featuredlite theme. Also install recommended plugins available in recommended tab.','featuredlite'); ?></p>
+
 </div>
 <div class="theme_link">
     <h3><?php _e('2. Setup Home Page','featuredlite'); ?><!-- <php echo $theme_config['plugin_title']; ?> --></h3>
