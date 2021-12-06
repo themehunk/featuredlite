@@ -1,12 +1,12 @@
 <div class="sidebar-section">
             <div class="section">
             <h3 class="hndle ui-sortable-handle">
-                <span><?php _e('Featuredlite WordPress Theme','featuredlite'); ?> </span>
+                <span><?php _e('Featured Pro WordPress Theme','featuredlite'); ?> </span>
             </h3>
             <p>
             <b><?php _e('Pre-made premium templates','featuredlite'); ?> </b><br>
-            <?php _e('FeaturedPro is an amazing multipurpose theme made for Agency, small businesses, firm and corporate websites.','featuredlite'); ?> </p>
-                <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/featuredlite-business-wordpress-theme/"><?php _e('Upgrade','featuredlite'); ?> </a></center>
+            <?php _e('Featured Pro is an amazing multipurpose theme made for Agency, small businesses, firm and corporate websites.','featuredlite'); ?> </p>
+                <center><a class="button ztabtn" target="_blank" href="https://themehunk.com/product/featured/"><?php _e('Upgrade','featuredlite'); ?> </a></center>
             </div>
             <hr>
             <div class="section">
