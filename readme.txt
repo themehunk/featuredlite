@@ -2,7 +2,7 @@
 Contributors: ThemeHunk
 Tags: right-sidebar, custom-menu, translation-ready
 Requires at least: 4.5
-Tested up to: 5.7.2
+Tested up to: 5.8.2
 Requires PHP: 5.6
 Stable tag: 1.3.9
 License: GPLv3 or later
@@ -30,6 +30,7 @@ Yes, all our theme works on multisite.
 
 = 1.3.9
 * Th option panel updated.
+* Child theme notification added.
 
 = 1.3.8 
 * Theme Support link changed.
@@ -166,6 +167,7 @@ Version: 1.0.0 =
 
 = 1.3.9
 * Th option panel updated.
+* Child theme notification added.
 
 == Resources ==
 

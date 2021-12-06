@@ -132,9 +132,8 @@ function _check_homepage_setup(){
       );
 
         }
-        
+		
 
-	
 
 function plugin_install_button($plugin){
             $button = '<div class="rcp theme_link th-row">';
@@ -149,13 +148,15 @@ function plugin_install_button($plugin){
 
             echo $button;
 }
-	
-		
+
+
+
 
 /**
  * Include Welcome page content
  */
  public  function plugin_install($rplugins = 'recommend-plugins'){
+
     $recommend_plugins = get_theme_support( $rplugins );
 
        if ( is_array( $recommend_plugins ) && isset( $recommend_plugins[0] ) ){
@@ -223,9 +224,6 @@ function plugin_install_button($plugin){
     } // plugin check
 }
 
-		
 	
-
- 
 } // class end
 $boj = new featuredlite_theme_option(); ?>

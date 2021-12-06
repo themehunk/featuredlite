@@ -2,22 +2,11 @@
       <div class="content free-pro">
             <table class="table">
                <tbody class="table-body">
+
                   <tr class="table-head">
                      <th class="title" align="left"><?php _e('Features','featuredlite'); ?></th>
                      <th class="status" align="center"><?php _e('featuredlite','featuredlite'); ?> </th>
                      <th class="status" align="center"><?php _e('featured Pro','featuredlite'); ?> </th>
-                  </tr>
-
-                  <tr class="feature-row">
-                     <td class="title">
-                        <div class="title-wrap">
-                           <h4 style="color: #FF6D00;"><?php _e('Pre Made Template','featuredlite'); ?> </h4>
-                        </div>
-                     </td>
-                     <td class="status success"><span class="dashicon dashicons" size="30"></span>
-                     <span class="info"><?php _e('1','featuredlite'); ?> </span></td>
-                     <td class="status success"><span class="dashicon dashicons" size="30"></span>
-                     <span class="info"><a href="https://themehunk.com/product/featuredlite-business-wordpress-theme/#tabfix" target="_blank"><?php _e('5+','featuredlite'); ?></a> </span></td>
                   </tr>
 
                   <tr class="feature-row">
@@ -71,9 +60,54 @@
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span>
                         <span class="info"><?php _e('(Number of slides 6)','featuredlite'); ?> </span></td>
                   </tr>
+
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4> <?php _e('Button styling Hero Background slider','featuredlite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span>
+                     <span class="info"><?php _e('(Six different Button styles)','featuredlite'); ?> </span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span>
+                        <span class="info"><?php _e('(Six different Button styles with fully customizable option)','featuredlite'); ?> </span></td>
+                  </tr>
                   
                   
                   
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4> <?php _e('Header setting','featuredlite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4> <?php _e('Header layout option','featuredlite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
+                   <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4> <?php _e('Header Background image','featuredlite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span> <span class="info"><?php _e('(Add different image for each page template)','featuredlite'); ?> </span></td>
+                  </tr>
+
 
 
                   <tr class="feature-row">
@@ -115,7 +149,7 @@
                   <tr class="feature-row">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4> <?php _e('Front Page Section','featuredlite'); ?> </h4>
+                           <h4> <?php _e('Front Page Section(Services,Testimonial,Blog,WooCommerce,Our team,Contact)','featuredlite'); ?> </h4>
                         </div>
                      </td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span>
@@ -125,9 +159,40 @@
                   </tr>
 
 
-                  
 
-                 
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4><?php _e('Ribbon Section','featuredlite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
+                  <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4><?php _e('Map Section','featuredlite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
+                   <tr class="feature-row">
+                     <td class="title">
+                        <div class="title-wrap">
+                           <h4><?php _e('Google reCAPTCHA','featuredlite'); ?> </h4>
+                        </div>
+                     </td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                     <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
+                  </tr>
+
+
 
 
                   <tr class="feature-row">
@@ -139,6 +204,13 @@
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                      <td class="status success"><span class="dashicon dashicons dashicons-yes" size="30"></span></td>
                   </tr>
+                  
+
+
+                  
+
+
+
 
                   <tr class="feature-row">
                      <td class="title">
@@ -260,20 +332,15 @@
                   </tr>
 
 
-                  
-
-                  
-                    <tr class="feature-row th-buy-pro">
+                  <tr class="feature-row th-buy-pro">
                      <td class="title">
                         <div class="title-wrap">
-                           <h4><?php _e('Get Pro Theme','featuredlite'); ?> </h4>
+                           <h4><?php _e('Pro Theme','featuredlite'); ?> </h4>
                         </div>
                      </td>
-                     <td class="status upsell"><?php _e('Get access to all Pro features','featuredlite'); ?> </td>
-                     <td class="status success"><a href="https://themehunk.com/product/featured/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get featured Pro Now','featuredlite'); ?></a></td>
+                     <td class="status upsell"><?php _e('Access to all Pro features','featuredlite'); ?> </td>
+                     <td class="status success"><a href="https://themehunk.com/product/featuredlite-business-wordpress-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get featuredPro Now','featuredlite'); ?></a></td>
                   </tr>
-
-
 
                </tbody>
             </table>
