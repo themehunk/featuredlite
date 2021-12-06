@@ -339,7 +339,7 @@
                         </div>
                      </td>
                      <td class="status upsell"><?php _e('Access to all Pro features','featuredlite'); ?> </td>
-                     <td class="status success"><a href="https://themehunk.com/product/featuredlite-business-wordpress-theme/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get featuredPro Now','featuredlite'); ?></a></td>
+                     <td class="status success"><a href="https://themehunk.com/product/featured/" target="_blank" rel="external noreferrer noopener" class="components-button is-primary"><?php _e('Get featuredPro Now','featuredlite'); ?></a></td>
                   </tr>
 
                </tbody>
