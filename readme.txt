@@ -28,6 +28,9 @@ Yes, all our theme works on multisite.
 == Changelog ==
 = Theme Name Featured Lite =
 
+= 1.4.0
+* Child theme notification style updated.
+
 = 1.3.9
 * Th option panel updated.
 * Child theme notification added.
