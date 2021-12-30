@@ -4,7 +4,7 @@ Tags: right-sidebar, custom-menu, translation-ready
 Requires at least: 4.5
 Tested up to: 5.8.2
 Requires PHP: 5.6
-Stable tag: 1.3.9
+Stable tag: 1.4.0
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -30,6 +30,8 @@ Yes, all our theme works on multisite.
 
 = 1.4.0
 * Child theme notification style updated.
+* Th product compare plugin added.
+* Remove widget-block-editor support.
 
 = 1.3.9
 * Th option panel updated.

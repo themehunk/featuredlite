@@ -69,7 +69,7 @@ final class Featuredlite_Pro_Button_Customize {
 				'pro_button',
 				array(
 					'title'    => esc_html__( 'Featured Pro Theme', 'featuredlite' ),
-					'pro_text' => esc_html__( 'Pro Themes','featuredlite' ),
+					'pro_text' => esc_html__( 'Go Pro','featuredlite' ),
 					'pro_url'  => '//www.themehunk.com/product/featured/',
 					'priority' => 1,
 				)

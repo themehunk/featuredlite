@@ -32,6 +32,9 @@ add_theme_support( 'automatic-feed-links' );
         add_editor_style( 'style-editor.css' );
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
+
+        // Remove theme support for widget block editor
+        remove_theme_support( 'widgets-block-editor' );
 /*
 * Let WordPress manage the document title.
 * By adding theme support, we declare that this theme does not use a
@@ -84,16 +87,10 @@ add_theme_support( 'custom-background', $args );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
-
             'th-advance-product-search' => array(
-            'name' => esc_html__( 'TH Advance Product Search', 'featuredlite' ),
+            'name' => esc_html__( 'TH Advance Product & Post Search', 'featuredlite' ),
             'img' => 'icon-128x128.gif',
             'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
-            ),
-            'th-variation-swatches' => array(
-                'name' => esc_html__( 'TH Variation Swatches', 'featuredlite' ),
-                 'img' => 'icon-128x128.gif',
-                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
             ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'featuredlite' ),
@@ -105,6 +102,17 @@ add_theme_support( 'custom-background', $args );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
             ), 
+            'th-product-compare' => array(
+            'name' => esc_html__( 'TH Product Compare', 'featuredlite' ),
+            'img' => 'icon-128x128.png',
+            'active_filename' => 'th-product-compare/th-product-compare.php',
+            ),
+            'th-variation-swatches' => array(
+                'name' => esc_html__( 'TH Variation Swatches', 'featuredlite' ),
+                 'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
+            ),
+
             'woocommerce' => array(
                 'name' => esc_html__( 'Woocommerce', 'featuredlite' ),
                  'img' => 'icon-128x128.png',
