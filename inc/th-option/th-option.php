@@ -20,6 +20,8 @@ function menu_tab() {
 * Enqueue scripts for admin page only: Theme info page
 */
 function admin_scripts( $hook ) {
+
+
 if ($hook === 'appearance_page_thunk_started'  ) {
 wp_enqueue_style( 'thunk-started-css', get_template_directory_uri() . '/inc/th-option/assets/css/started.css' );
 wp_enqueue_script('featuredlite-admin-load', get_template_directory_uri() . '/inc/th-option/assets/js/th-options.js',array( 'jquery', 'updates' ),'1', true);
@@ -34,7 +36,10 @@ $data = apply_filters(
     wp_localize_script( 'featuredlite-admin-load', 'THAdmin', $data); 
 
 
-}
+}else{
+wp_enqueue_style( 'thunk-notify-css', get_template_directory_uri() . '/inc/th-option/assets/css/notify.css' );
+ 
+    }
 }
 function tab_constant(){
     $theme_data = wp_get_theme();

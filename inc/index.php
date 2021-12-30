@@ -13,5 +13,5 @@
 	//require_once( get_template_directory() . '/inc/theme-setup/tgm-plugin.php' );
 	require_once( trailingslashit( get_template_directory() ) . '/inc/theme-setup/featuredlite-theme.php' );
 	require_once( trailingslashit( get_template_directory() ) . '/inc/th-option/th-option.php' );
-	require_once( trailingslashit( get_template_directory() ) . '/inc/th-option/child-notify.php' );
+	require_once( trailingslashit( get_template_directory() ) . '/inc/th-option/notify.php' );
 ?>

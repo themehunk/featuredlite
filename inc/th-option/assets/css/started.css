@@ -486,35 +486,10 @@ display: flex;
     top: 29px;
     right: 0;
 }
-
-.wp-core-ui .child-theme-notice a.button.button-secondary{
-    /*margin-bottom: 9px;*/
-    color: #2271b1;
-    border-color: #2271b1;
-    background: #f6f7f7;
-    margin-right: 3px;
-
+.th-theme-notice{
+display: none;
 }
-.wp-core-ui .child-theme-notice a.button{
-    /*margin-bottom: 9px;*/
-    color: #FFFFFF;
-    border-color: #FF6D00;
-    background: #FF6D00;
-}
-.child-theme-notice{
-    /*margin-right: 39px;*/
 
-    /*background: #fcf5fb;*/
-    background: #f5f7fc;
-    color: #996097;
-    text-align: center;
-    padding: 25px 10px !important;
-    /*border: 8px solid #fff;*/
-    /*border: 8px solid #f98a17;*/
-    position: relative;
-    box-shadow: none;
-    border-left-color: #3573ff;
-}
 @media (min-width: 768px){
 .theme_link {
     width: 18%;
