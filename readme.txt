@@ -2,7 +2,7 @@
 Contributors: ThemeHunk
 Tags: right-sidebar, custom-menu, translation-ready
 Requires at least: 5.0
-Tested up to: 5.8.2
+Tested up to: 5.9
 Requires PHP: 5.6
 Stable tag: 1.4.1
 License: GPLv3 or later
