@@ -1,10 +1,10 @@
 === Theme: Featured lite ===
 Contributors: ThemeHunk
 Tags: right-sidebar, custom-menu, translation-ready
-Requires at least: 4.5
+Requires at least: 5.0
 Tested up to: 5.8.2
 Requires PHP: 5.6
-Stable tag: 1.4.0
+Stable tag: 1.4.1
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -27,6 +27,8 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name Featured Lite =
+= 1.4.1
+* Loader issue resolved.
 
 = 1.4.0
 * Child theme notification style updated.
@@ -170,9 +172,8 @@ Version: 1.0.0 =
 
 == Upgrade Notice ==
 
-= 1.3.9
-* Th option panel updated.
-* Child theme notification added.
+= 1.4.1
+* Loader issue resolved.
 
 == Resources ==
 

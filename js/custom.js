@@ -32,8 +32,6 @@ var featured_slide = jQuery('.fadein-slider');
             });
         }   
     }
-    jQuery(".loader").fadeOut("slow");
-    jQuery(".overlayloader").delay(1000).fadeOut("slow");
     setTimeout(featured_slide_flex, 2000);
 });
 });
@@ -329,6 +327,11 @@ jQuery(document).ready(function() {
       jQuery('.map iframe').css("pointer-events", "none"); 
     });
  });
+//Preloader    
+    jQuery(window).on('load', function(){
+    jQuery(".loader").fadeOut("slow");
+    jQuery(".overlayloader").delay(1000).fadeOut("slow");
+});
 /*------------wow animation------------*/
 
 wow = new WOW({
