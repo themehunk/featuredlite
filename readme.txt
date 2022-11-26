@@ -2,9 +2,9 @@
 Contributors: ThemeHunk
 Tags: right-sidebar, custom-menu, translation-ready
 Requires at least: 5.0
-Tested up to: 5.9
+Tested up to: 6.1
 Requires PHP: 5.6
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -27,6 +27,9 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name Featured Lite =
+= 1.4.2
+* Theme tested With WordPress 6.1.
+
 = 1.4.1
 * Loader issue resolved.
 
@@ -172,9 +175,8 @@ Version: 1.0.0 =
 
 == Upgrade Notice ==
 
-= 1.4.1
-* Loader issue resolved.
-
+= 1.4.2
+* Theme tested With WordPress 6.1.
 == Resources ==
 
 License for images:

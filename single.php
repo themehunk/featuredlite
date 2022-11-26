@@ -8,7 +8,7 @@
 */
 get_header(); ?>
 <?php $layout = featuredlite_get_layout(); ?>
-<div id="page" class="container <?php echo $layout; ?>">
+<div id="page" class="container <?php echo esc_attr($layout); ?>">
 	<div class="content-wrapper single-container">
 		<div class="content">
 		<div class="breadcrumb">
