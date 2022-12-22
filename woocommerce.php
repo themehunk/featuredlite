@@ -9,7 +9,7 @@
 get_header();
 ?>
 <?php $layout = featuredlite_get_layout(); ?>
-<div id="page" class="clearfix <?php echo $layout; ?>">
+<div id="page" class="clearfix <?php echo esc_attr($layout); ?>">
       <div class="content-wrapper clearfix">
             <div class="content">
             <div class="breadcrumb">

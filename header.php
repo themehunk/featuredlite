@@ -73,7 +73,7 @@ if (get_theme_mod('header_layout')=='split') { ?>
   </script>
   <?php } ?>  
    <!-- script to split menu --> 
-    <header id="header" class="<?php echo $header_fixed_cls; ?> <?php echo $cntralign_menu; ?> <?php echo $split_menu; ?> <?php echo $hdr_trnsprnt; ?> <?php echo $last_btn; ?>">
+    <header id="header" class="<?php echo esc_attr($header_fixed_cls); ?> <?php echo esc_attr($cntralign_menu); ?> <?php echo esc_attr($split_menu); ?> <?php echo esc_attr($hdr_trnsprnt); ?> <?php echo esc_attr($last_btn); ?>">
       <a class="skip-link screen-reader-text" href="#page"><?php _e( 'Skip to content', 'featuredlite' ); ?></a>
       <div class="header-img">
       <div class="overlay-demo"></div>
