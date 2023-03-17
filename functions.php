@@ -33,8 +33,6 @@ add_theme_support( 'automatic-feed-links' );
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
 
-        // Remove theme support for widget block editor
-        remove_theme_support( 'widgets-block-editor' );
 /*
 * Let WordPress manage the document title.
 * By adding theme support, we declare that this theme does not use a
@@ -101,6 +99,16 @@ add_theme_support( 'custom-background', $args );
                 'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'featuredlite' ),
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ), 
+            'unlimited-blocks' => array(
+                'name' => esc_html__( 'Unlimited blocks For Gutenberg', 'featuredlite' ),
+                'img' => 'icon-128x128.png',
+                'active_filename' => 'unlimited-blocks/unlimited-blocks.php',
+            ),
+            'th-all-in-one-woo-cart' => array(
+                'name' => esc_html__( 'Th All In One Woo Cart', 'featuredlite' ),
+                 'img' => 'icon-128x128.png',
+                 'active_filename' => 'th-all-in-one-woo-cart/th-all-in-one-woo-cart.php',
             ), 
             'th-product-compare' => array(
             'name' => esc_html__( 'TH Product Compare', 'featuredlite' ),
