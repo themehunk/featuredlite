@@ -2,9 +2,9 @@
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, theme-options, education
 Requires at least: 5.0
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 5.6
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -29,9 +29,11 @@ Yes, all our theme works on multisite.
 = Theme Name Featured Lite =
 
 = 1.4.3
-* Theme made Compatible with Block Editor.
-* Tags Added.
-* Blank Template Added.
+Update: Theme made Compatible with Block Editor.
+New:Tags Added.
+New:Blank Template Added.
+Update: Style Improved.
+
 
 = 1.4.2
 * Theme tested With WordPress 6.1.
@@ -182,9 +184,11 @@ Version: 1.0.0 =
 == Upgrade Notice ==
 
 = 1.4.3
-* Theme made Compatible with Block Editor.
-* Tags Added.
-* Blank Template Added.
+Update: Theme made Compatible with Block Editor.
+New:Tags Added.
+New:Blank Template Added.
+Update: Style Improved.
+
 == Resources ==
 
 License for images:
