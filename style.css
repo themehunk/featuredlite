@@ -4,13 +4,13 @@ Theme URI: http://themehunk.com/product/featured-lite-business-wordpress-theme/
 Author: ThemeHunk
 Author URI: www.themehunk.com
 Description: Featured lite theme is specially designed for corporate/business websites. Theme is user friendly and its instant set up process help you to create professional website for Business (Agency, Interior, Florist, Transport, Construction etc), Shop / eCommerce, Personal, Blog, Photography. This responsive theme comes with live customizer, Full body background slider and background image option, Translation ready, Header layouts (Default, Center and Split), Widget based home page sections with unlimited items capability, Unlimited color option, Advance Section styling, Professionally designed sections (Ribbon, Services, About Us, Call to action, Team, Shop (WooCommerce), Testimonial, Latest News, Contact Us (With call to, Mail to, Address and Map). Theme contain seven widget area (Four for footer, Two for sidebar (default pages) and one for shop page). Theme is compatible with WooCommerce, bbPress, Lead form builder, Contactform7 and with many other WP plugin.
-Version: 1.4.2
+Version: 1.4.3
 Requires at least: 4.5
-Tested up to: 6.1
+Tested up to: 6.2
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: license.txt 
-Tags:right-sidebar, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, theme-options, education
+Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, theme-options, education
 Text Domain: featuredlite
 */
 /* 
@@ -1190,7 +1190,7 @@ a img.aligncenter {
 .wp-caption.alignright {
     margin: 5px 0 20px 20px;
 }
-.sticky {} .wp-caption img {
+.wp-caption img {
     border: 0 none;
     height: auto;
     margin: 0;
@@ -1204,7 +1204,6 @@ a img.aligncenter {
     margin: 0;
     padding: 0 4px 5px;
 }
-.gallery-caption {}
 /* Text meant only for screen readers. */
 
 .screen-reader-text {
@@ -1234,7 +1233,6 @@ a img.aligncenter {
     z-index: 100000;
     /* Above WP toolbar. */
 }
-.bypostauthor {}
 /* Main Wrapper Style starts */
 
 .main-header-section {
@@ -2485,7 +2483,7 @@ padding:5px;
     font-weight: bold;
     padding: 8px 8px;
     position: fixed;
-    right: 10px;
+    right: 21px;
     bottom: 121px;
     width: 40px;
     z-index: 999;
@@ -4535,6 +4533,10 @@ padding: 0em;
   line-height: inherit;
   margin: 0;
 }
+.wp-block-search__label{
+    margin-bottom: 21px;
+    display: block;
+}
 /*woocommerce end*/
 @media only screen and (max-width: 768px) {
 .woocommerce-page.columns-2 ul.products li.product,
@@ -4660,6 +4662,9 @@ padding: 0em;
     }
     ul.multiple-team-section{
         padding-top: 54px;
+    }
+    .header-wrapper .logo .logo-img{
+        max-width: 121px;
     }
 }
 @media only screen and (max-width: 420px) {
@@ -4865,6 +4870,7 @@ background:#f16c20;
         overflow: auto;
         transition: left 500ms ease;
         -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
         z-index: 99999;
     }
     .mobile-menu-active .navigation.mobile-menu-wrapper {
