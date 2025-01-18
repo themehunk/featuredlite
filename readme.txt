@@ -28,7 +28,13 @@ Yes, all our theme works on multisite.
 = Theme Name Featured Lite =
 
 = 1.4.4
-Update: Theme Option updated.
+* Update: Theme Option updated.
+* New: Vayu Blocks added in recommended plugins.
+* New: Theme added in new imprter.
+* Update: Welcome tab style issue updated.
+* New: Twitter share button added. 
+* Update: Video tab removed.
+* Update: Theme tested with new importer.
 
 = 1.4.3
 Update: Theme made Compatible with Block Editor.
