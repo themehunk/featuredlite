@@ -10,8 +10,8 @@
             </div>
             <hr>
             <div class="section">
-                <h3><?php _e('Why Upgrade?','featured'); ?></h3>
-                <p><?php _e('Upgrading to Big Store Premium you will unlock dozen of unique features that will take your website to the next level. See the Comparison table for more details.','featuredlite'); ?> </p>
+                <h3><?php _e('Why Upgrade?','featuredlite'); ?></h3>
+                <p><?php _e('Upgrading to Featured Pro Premium you will unlock dozen of unique features that will take your website to the next level. See the Comparison table for more details.','featuredlite'); ?> </p>
                  <center><a class="button button-primary" target="_blank" href="https://themehunk.com/product/featured#tabfix"><?php _e('View Featured Premium Demo','featuredlite'); ?> </a></center>
 
             </div>

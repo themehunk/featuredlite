@@ -70,9 +70,11 @@ class ThemeHunk_Child_Notify{
         ?>
       </h1>
 
-        <p><?php _e( "Get Started with ".esc_html( $my_theme->Name )." and Start customizing your website, also Install the Child theme if you want to edit the core code of the theme.", 'featuredlite' ); ?></p>
-        <a href="<?php echo esc_url(admin_url('themes.php?page=thunk_started')); ?>" class="button button-primary th-blue"><?php _e('Get Started with '.esc_html( $my_theme->Name ),'featuredlite') ?></a>
+        <p><?php printf( __( 'Get Started with %s and start customizing your website. Also, install the Child theme if you want to edit the core code of the theme.', 'featuredlite' ), esc_html( $my_theme->Name ) ); ?></p>
 
+		<a href="<?php echo esc_url(admin_url('themes.php?page=thunk_started')); ?>" class="button button-primary th-blue">
+   			 <?php printf( __( 'Get Started with %s', 'featuredlite' ), esc_html( $my_theme->Name ) ); ?>
+		</a>
         <a href="<?php echo esc_url(admin_url('themes.php?page=thunk_started')); ?>" class=" button-secondary"><?php _e('Get Child Theme Now','featuredlite') ?></a>
 
         <a href="?notice-disable=1"  class="notice-dismiss dashicons dashicons-dismiss dashicons-dismiss-icon"></a>
