@@ -85,26 +85,16 @@ add_theme_support( 'custom-background', $args );
                  'img' => 'icon-128x128.png',
                 'active_filename' => 'themehunk-customizer/themehunk-customizer.php',
             ),
-            'th-advance-product-search' => array(
-            'name' => esc_html__( 'TH Advance Product & Post Search', 'featuredlite' ),
-            'img' => 'icon-128x128.gif',
-            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
-            ),
-            'lead-form-builder' => array(
-                'name' => esc_html__( 'Lead Form Builder', 'featuredlite' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'lead-form-builder/lead-form-builder.php',
-            ),
-            'wp-popup-builder' => array(
-                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'featuredlite' ),
-                 'img' => 'icon-128x128.png',
-                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
-            ), 
             'vayu-blocks' => array(
                 'name' => esc_html__( 'Vayu blocks For Gutenberg', 'featuredlite' ),
                 'img' => 'icon-128x128.png',
                 'active_filename' => 'vayu-blocks/vayu-blocks.php',
                 ),
+            'th-advance-product-search' => array(
+            'name' => esc_html__( 'TH Advance Product & Post Search', 'featuredlite' ),
+            'img' => 'icon-128x128.gif',
+            'active_filename' => 'th-advance-product-search/th-advance-product-search.php',
+            ),
             'th-all-in-one-woo-cart' => array(
                 'name' => esc_html__( 'Th All In One Woo Cart', 'featuredlite' ),
                  'img' => 'icon-128x128.gif',
@@ -115,20 +105,21 @@ add_theme_support( 'custom-background', $args );
             'img' => 'icon-128x128.gif',
             'active_filename' => 'th-product-compare/th-product-compare.php',
             ),
+            'lead-form-builder' => array(
+                'name' => esc_html__( 'Lead Form Builder', 'featuredlite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'lead-form-builder/lead-form-builder.php',
+            ),
             'th-variation-swatches' => array(
                 'name' => esc_html__( 'TH Variation Swatches', 'featuredlite' ),
                  'img' => 'icon-128x128.gif',
                 'active_filename' => 'th-variation-swatches/th-variation-swatches.php',
             ),
-
-            'woocommerce' => array(
-                'name' => esc_html__( 'Woocommerce', 'featuredlite' ),
-                 'img' => 'icon-128x128.gif',
-                'active_filename' => 'woocommerce/woocommerce.php',
-            ),
-
-            
-
+            'wp-popup-builder' => array(
+                'name' => esc_html__( 'WP Popup Builder – Popup Forms & Newsletter', 'featuredlite' ),
+                 'img' => 'icon-128x128.png',
+                'active_filename' => 'wp-popup-builder/wp-popup-builder.php',
+            ), 
         ) );
 
         // Import Data Content plugins
