@@ -105,6 +105,11 @@ add_theme_support( 'custom-background', $args );
             'img' => 'icon-128x128.gif',
             'active_filename' => 'th-product-compare/th-product-compare.php',
             ),
+            'th-wishlist' => array(
+                'name' => esc_html__( 'TH Wishlist for WooCommerce', 'featuredlite' ),
+                'img' => 'icon-128x128.gif',
+                'active_filename' => 'th-wishlist/th-wishlist.php',
+                ),
             'lead-form-builder' => array(
                 'name' => esc_html__( 'Lead Form Builder', 'featuredlite' ),
                  'img' => 'icon-128x128.png',

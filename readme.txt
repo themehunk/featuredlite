@@ -2,7 +2,7 @@
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, theme-options, education
 Requires PHP: 5.5
-Tested up to: 6.7
+Tested up to: 6.8
 Stable tag: 1.4.5
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -29,6 +29,15 @@ Yes, all our theme works on multisite.
 
 = 1.4.5
 * Update: Theme option welcome.php errors removed.
+* Update: Style Improved
+* Update:Tested with latest PHP 8.3 / 8.4.
+* Update:Tested with wordpress 6.8.
+* Update: No open code present (__load_text_domain error)
+* Update: TH Wishlist added in Option Panel.
+* Update: Hooks added at after & before of haeder and footer also class added in these tags.
+* Update: Header implementation through hooks using do_action( 'featuredlite_header' );
+* Update: Footer implementation through hooks using do_action( 'featuredlite_footer' );
+
 
 = 1.4.4
 * Update: Theme Option updated.
