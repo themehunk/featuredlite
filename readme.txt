@@ -37,6 +37,7 @@ Yes, all our theme works on multisite.
 * Update: Hooks added at after & before of haeder and footer also class added in these tags.
 * Update: Header implementation through hooks using do_action( 'featuredlite_header' );
 * Update: Footer implementation through hooks using do_action( 'featuredlite_footer' );
+* Update: Transparent header style added.
 
 
 = 1.4.4

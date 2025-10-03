@@ -28,7 +28,7 @@ $header_fixed_cls = '';
     $split_menu ='';
     $cntralign_menu='';
     }
-    if(get_theme_mod('hdr_bg_trnsparent_active')=='1'){
+    if(get_theme_mod('hdr_bg_trnsparent_active','1')=='1'){
     $hdr_trnsprnt ='hdr-transparent';
     }else{
     $hdr_trnsprnt ='';
