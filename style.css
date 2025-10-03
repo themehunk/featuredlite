@@ -723,7 +723,10 @@ color:#fff;
 color:#fff;
 }
 .home .hdr-transparent .header-wrapper{
-background-color:transparent;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
 }
 /*landing-page*/
 .page-template-landing-page .content {
@@ -4532,6 +4535,10 @@ padding: 0em;
 .wp-block-search__label{
     margin-bottom: 21px;
     display: block;
+}
+.fa-twitter::before{
+    content:"𝕏"!important;
+    font-size:1.2em;
 }
 /*woocommerce end*/
 @media only screen and (max-width: 768px) {
