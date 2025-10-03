@@ -1,4 +1,128 @@
 <?php
+/**************************************/
+// Wrapper of header markup
+/**************************************/
+if ( !function_exists('featuredlite_full_header_markup') ) {
+function featuredlite_full_header_markup() {
+$header_fixed_cls = '';
+    $cntralign_menu='';
+    $split_menu='';
+    $hdr_trnsprnt ='';
+    $last_btn ='';
+    if(get_theme_mod('featuredlite_sticky_header_disable')=='1'){
+    $header_fixed_cls = 'header-fixed';
+    }else{
+    $header_fixed_cls ='';
+    }
+    if(get_theme_mod('header_layout')=='center'){
+    $cntralign_menu = 'menu-center';
+    }else{
+    $cntralign_menu='';
+    }
+    if(get_theme_mod('header_layout')=='split'){
+    $split_menu ='menu-center split-menu';
+    }else{
+    $split_menu ='';
+    }
+    if(get_theme_mod('header_layout')=='default'){
+    $split_menu ='';
+    $cntralign_menu='';
+    }
+    if(get_theme_mod('hdr_bg_trnsparent_active')=='1'){
+    $hdr_trnsprnt ='hdr-transparent';
+    }else{
+    $hdr_trnsprnt ='';
+    }
+    if(get_theme_mod('last_menu_btn')=='1'){
+    $last_btn ='last-btn';
+    }else{
+    $last_btn ='';
+    }
+     ?>
+   <header id="header" class="<?php echo esc_attr($header_fixed_cls); ?> <?php echo esc_attr($cntralign_menu); ?> <?php echo esc_attr($split_menu); ?> <?php echo esc_attr($hdr_trnsprnt); ?> <?php echo esc_attr($last_btn); ?>">
+      <a class="skip-link screen-reader-text" href="#page"><?php _e( 'Skip to content', 'featuredlite' ); ?></a>
+      <div class="header-img">
+      <div class="overlay-demo"></div>
+        </div>
+        <div class="header-wrapper" >
+          <!-- Start Of Top Container -->
+          <div class="container">
+            <div class="header">
+              <!-- Start Of Logo -->
+              <div class="logo">
+                <div class="logo-img">
+                  <?php featuredlite_the_custom_logo();?>
+                  <?php
+                if(get_theme_mod('title_disable','enable')!=''){
+                  if ( is_front_page() && is_home() ) : ?>
+                  <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                  <?php else : ?>
+                  <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+                  <?php endif;
+                  $description = get_bloginfo( 'description', 'display' );
+                  if ( $description || is_customize_preview() ) : ?>
+                  <p><?php echo $description; ?></p>
+                  <?php endif;  
+                } ?>
+                </div>
+              </div>
+              <!-- End Of Logo -->
+              <div id="main-menu-wrapper">
+                <a href="#" id="pull" class="toggle-mobile-menu"></a>
+                <nav class="navigation clearfix mobile-menu-wrapper">
+                  <?php if ( is_front_page()) :
+                  featuredlite_nav_menu();
+                  else:
+                  featuredlite_secnd_menu();
+                  endif;
+                  ?>
+                </nav>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </header>
+<?php }
+add_action('featuredlite_header', 'featuredlite_full_header_markup');
+}
+
+if ( !function_exists('featuredlite_full_footer_markup') ) {
+function featuredlite_full_footer_markup() { 
+    get_sidebar('footer'); ?>
+</div>
+<div class="footer-copyright">
+<div class="container">
+    <ul>
+        <li class="copyright">
+            <?php 
+            $allowed_html = array(
+                                  'a' => array(
+                                  'href' => array(),
+                                  'title' => array(),
+                                  'target' => array()
+                              ),
+                              'br' => array(),
+                              'em' => array(),
+                              'strong' => array(),
+                          );
+                $url = "https://themehunk.com";
+              echo  sprintf( 
+                wp_kses( __( 'Featuredlite developed by <a href="%s" target="_blank">ThemeHunk</a>', 'featuredlite' ), $allowed_html), esc_url( $url ) );
+            ?>
+        </li>
+        <li class="social-icon">
+            <?php featuredlite_social_links(); ?>
+        </li>
+    </ul>
+</div>
+</div>
+    <?php }
+
+// Hook the custom footer function into 'zita_footer'
+add_action('featuredlite_footer', 'featuredlite_full_footer_markup');
+}
+
  if ( ! function_exists( 'featuredlite_the_custom_logo' ) ) :
 /**
  * Displays the optional custom logo.
