@@ -60,7 +60,7 @@ $header_fixed_cls = '';
                   <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
                   <?php endif;
                   $description = get_bloginfo( 'description', 'display' );
-                  if ( $description || is_customize_preview() ) : ?>
+                  if ( get_theme_mod('featuredlite_tagline_disable','')!='' && ($description || is_customize_preview() ) ) : ?>
                   <p><?php echo $description; ?></p>
                   <?php endif;  
                 } ?>
