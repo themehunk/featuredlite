@@ -40,7 +40,7 @@ $wp_customize->get_section('title_tagline')->title = esc_html__('General Setting
         'sanitize_callback' => 'sanitize_text_field',
     ));
     $wp_customize->add_control('title_disable', array(
-        'label'    => __('Display Site Title & Tagline', 'featuredlite'),
+        'label'    => __('Display Site Title', 'featuredlite'),
         'section'  => 'title_tagline',
         'settings' => 'title_disable',
          'type'       => 'checkbox',
@@ -48,6 +48,21 @@ $wp_customize->get_section('title_tagline')->title = esc_html__('General Setting
             'enable' => 'Display Site Title & Tagline',
         ),
     )); 
+
+    $wp_customize->add_setting('featuredlite_tagline_disable', array(
+        'default'           => '',
+        'capability'        => 'edit_theme_options',
+        'sanitize_callback' => 'sanitize_text_field',
+    ));
+    $wp_customize->add_control('featuredlite_tagline_disable', array(
+        'label'    => __('Display Tagline', 'featuredlite'),
+        'section'  => 'title_tagline',
+        'settings' => 'featuredlite_tagline_disable',
+         'type'       => 'checkbox',
+        'choices'    => array(
+            'enable' => 'Display Site Title & Tagline',
+        ),
+    ));
 
     $obj = New Featuredlite_Popup();
 // Home Page Settings

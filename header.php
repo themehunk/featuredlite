@@ -25,8 +25,8 @@ if (get_theme_mod('header_layout')=='split') { ?>
      jQuery('ul.menu > li').each(function() {
          if(i == middle){
                 <?php
-        if (get_theme_mod('title_disable')!==''){?>
-          jQuery(this).before("<li class='logo-cent'><h1><a href='<?php echo esc_url( home_url( '/' ) ); ?>'><?php bloginfo('name'); ?></a></h1><p><?php bloginfo('description'); ?></p></li>");
+        if (get_theme_mod('title_disable','1')!==''){?>
+          jQuery(this).before("<li class='logo-cent'><h1><a href='<?php echo esc_url( home_url( '/' ) ); ?>'><?php bloginfo('name'); ?></a></h1><p><?php if (get_theme_mod('featuredlite_tagline_disable','')!==''){bloginfo('description');} ?></p></li>");
             <?php } else { ?>
       jQuery(this).before('<li class="logo-cent"><?php the_custom_logo();?></li>');
             <?php } ?>
