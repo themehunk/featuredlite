@@ -2,8 +2,8 @@
 Contributors: ThemeHunk
 Tags: wide-blocks, block-patterns, block-styles, editor-style, right-sidebar, custom-menu, custom-logo, editor-style, featured-images, translation-ready, flexible-header, theme-options, education
 Requires PHP: 5.5
-Tested up to: 6.8
-Stable tag: 1.4.6
+Tested up to: 7.0
+Stable tag: 1.4.7
 License: GPLv3 or later
 License URL: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -26,6 +26,9 @@ Yes, all our theme works on multisite.
 
 == Changelog ==
 = Theme Name Featured Lite =
+
+= 1.4.7
+* Update: Style improved & tested with WordPress 7.0.
 
 = 1.4.6
 * Update: Disable Tagline option added saparately.
