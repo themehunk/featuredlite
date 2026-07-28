@@ -320,7 +320,7 @@ function featuredlite_custom_header(){
 // layout choose function
 //-----------------------------//
 if (!function_exists( 'featuredlite_layout' ) ) {
-    function featuredlite_get_layout( $default = 'right' ) {
+    function featuredlite_get_layout( $default = 'no-sidebar' ) {
     $layout = get_theme_mod( 'featuredlite_layout', $default );
     return apply_filters( 'featuredlite_get_layout', $layout, $default );
     }

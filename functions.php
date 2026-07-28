@@ -33,6 +33,10 @@ add_theme_support( 'automatic-feed-links' );
         // Add support for responsive embedded content.
         add_theme_support( 'responsive-embeds' );
 
+        add_theme_support( 'wc-product-gallery-slider' );
+        add_theme_support( 'wc-product-gallery-lightbox' );
+        add_theme_support( 'wc-product-gallery-zoom' );
+
 /*
 * Let WordPress manage the document title.
 * By adding theme support, we declare that this theme does not use a
