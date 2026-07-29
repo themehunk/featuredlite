@@ -29,6 +29,7 @@ Yes, all our theme works on multisite.
 
 = 1.4.7
 * Update: Style improved & tested with WordPress 7.0.
+* Update: Woocommerce page style and slider improved.
 
 = 1.4.6
 * Update: Disable Tagline option added saparately.
